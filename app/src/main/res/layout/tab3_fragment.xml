@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/title_opinion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background_opinion"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="4dp"
+            android:padding="8dp"
+            android:hint="Tytuł"/>
+
+        <EditText
+            android:id="@+id/edit_text_opinion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background_opinion"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="45dp"
+            android:hint="Wyraź swoją opinię o salonie..."/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="2dp">
+
+
+            <EditText
+                android:id="@+id/opinion_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Autor"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="90dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/edit_text_background_opinion"
+                />
+
+            <Button
+                android:id="@+id/add_opinion_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:text="Dodaj opinię"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="2dp"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+             />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/error_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:visibility="gone"
+            android:text=""/>
+        <ListView
+            android:id="@+id/opinion_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp">
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

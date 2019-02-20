@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center_horizontal">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimary">
+       <ImageView
+           android:id="@+id/photo_tab"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:src="@drawable/hairdresser"
+           android:padding="10dp"/>
+</LinearLayout>
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="@drawable/edit_text_background"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp">
+
+           <TextView
+               android:id="@+id/tab_salon_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Nazwa salonu: Barroco Hair"
+               android:textSize="24dp"
+               android:layout_marginLeft="10dp"
+               android:padding="1dp"
+               android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:id="@+id/localization"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/localization"/>
+
+                <TextView
+                    android:id="@+id/tab_salon_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jagiellonska 25/5 Katowice"
+                    android:textSize="16dp"
+                    android:padding="1dp" />
+            </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp">
+
+               <ImageView
+                   android:id="@+id/phone"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/phone"/>
+
+               <TextView
+                   android:id="@+id/tab_salon_tel"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="505345356"
+                   android:textSize="16dp"
+                   android:padding="1dp" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp">
+
+               <ImageView
+                   android:id="@+id/email"
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@drawable/email"/>
+
+               <TextView
+                   android:id="@+id/tab_salon_email"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="kontakt@barroco.pl"
+                   android:textSize="16dp"
+                   android:padding="1dp" />
+           </LinearLayout>
+
+           <TextView
+               android:layout_marginTop="15dp"
+               android:id="@+id/tab_salon_text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Opis salonu"
+               android:layout_marginLeft="10dp"
+               android:textSize="20dp"
+               android:padding="1dp"
+               android:textStyle="bold"/>
+
+
+           <TextView
+               android:id="@+id/tab_salon_opis"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginBottom="10dp"
+               android:padding="1dp"
+               android:text="Fryzjer gwiazski zaprayzjerskich dla pów.Fryzjer gwiazd, prowadzący program “Afera fryzjera”, przewodniczący jury z programu “Mistrzowskie cięcie”, mistrz metamorfoz z programu „Sablewskiej sposób na modę” w TVN Style, mecenas kultury – Maciej Maniewski zaprasza do salonów i akademii fryzjerskich dla profesjonalistów.Fryzjer gwiazd, prowadzący program “Afera fryzjera”, przewodniczący jury z programu “Mistrzowskie cięcie”, mistrz metamorfoz z programu „Sablewskiej sposób na modę” w TVN Style, mecenas kultury – Maciej Maniewski zaprasza do salonów i akademii fryzjerskich dla profesjonalistów." />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="100dp"/>
+       </LinearLayout>
+       </ScrollView>
+       </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

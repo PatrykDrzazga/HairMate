@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hairmate</string>
+    <string name="main_text">HAIRMATE</string>
+    <string name="find_hint">Wpisz nazwę miasta....</string>
+    <string name="search_button">Szukaj</string>
+    <string name="title_activity_salon_view">SalonView</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="error_city_empty">Brak salonów w podanym mieście!</string>
+    <string name="error_internet_connection">Brak połączenia z internetem!</string>
+    <string name="list_salon_header_text">Lista salonów w mieście</string>
+</resources>
